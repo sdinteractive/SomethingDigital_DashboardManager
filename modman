@@ -1,0 +1,4 @@
+#SomethingDigital_DashboardManager
+app/code/community/SomethingDigital/DashboardManager
+app/design/frontend/base/default/layout/dashboardmanager.xml
+app/etc/modules/SomethingDigital_DashboardManager.xml

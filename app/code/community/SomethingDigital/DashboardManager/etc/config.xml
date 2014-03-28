@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <SomethingDigital_DashboardManager>
+             <version>1.0.0</version>
+        </SomethingDigital_DashboardManager>
+    </modules>
+    <global>
+        <models>
+            <dashboardmanager>
+                <class>SomethingDigital_DashboardManager_Model</class>
+            </dashboardmanager>
+        </models>
+        <blocks>
+            <customer>
+                <rewrite>
+                    <account_navigation>SomethingDigital_DashboardManager_Block_Account_Navigation</account_navigation>
+                </rewrite>
+            </customer>
+        </blocks>
+    </global>
+    <layout>
+        <updates>
+            <dashboardmanager>
+               <file>dashboardmanager.xml</file>
+            </dashboardmanager>
+        </updates>
+    </layout>
+</config>

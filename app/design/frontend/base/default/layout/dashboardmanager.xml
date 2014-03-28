@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<config>
+    <layout>
+        <customer_account>
+            <reference name="customer_account_navigation">
+                <!-- Rename labels -->
+                <action method="changeLabel">
+                    <name>account_edit</name>
+                    <label>Account Info</label>
+                </action>
+                <action method="changeLabel">
+                    <name>orders</name>
+                    <label>Orders</label>
+                </action>
+                <action method="changeLabel">
+                    <name>project</name>
+                    <label>Projects</label>
+                </action>
+
+                <!-- Resort links -->
+                <action method="changePosition">
+                    <name>account</name>
+                    <position>0</position>
+                </action>
+                <action method="changePosition">
+                    <name>account_edit</name>
+                    <position>1</position>
+                </action>
+                <action method="changePosition">
+                    <name>address_book</name>
+                    <position>2</position>
+                </action>
+                <action method="changePosition">
+                    <name>orders</name>
+                    <position>3</position>
+                </action>
+                <action method="changePosition">
+                    <name>project</name>
+                    <position>4</position>
+                </action>
+                <action method="changePosition">
+                    <name>wishlist</name>
+                    <position>5</position>
+                </action>
+                <action method="changePosition">
+                    <name>reviews</name>
+                    <position>6</position>
+                </action>
+                <action method="changePosition">
+                    <name>newsletter</name>
+                    <position>7</position>
+                </action>
+
+                <!-- Remove un-needed links -->
+                <action method="removeLinkByName">
+                    <name>downloadable_products</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>billing_agreements</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>recurring_profiles</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>enterprise_customerbalance</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>enterprise_giftcardaccount</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>giftregistry</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>enterprise_reward</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>OAuth Customer Tokens</name>
+                </action>
+                <action method="removeLinkByName">
+                    <name>invitations</name>
+                </action>
+            </reference>
+        </customer_account>
+    </layout>
+</config>
